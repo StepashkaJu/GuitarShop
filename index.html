@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Guitar Shop</title>
+    <link type="image/png" href="img/icon-guitar-pick.png" rel="icon" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!--создаем 3 компонента, которые будут на странице, поэтому 3 div-->
+    <!--Header-->
+    <div id="header"></div>
+    <!--каталог-->
+    <div id="products"></div>
+    <!--корзина-->
+    <div id="shopping"></div>
+
+    <!-- Components and Utils -->
+    <script src="constants/constants.js"></script>
+    <script src="constants/root.js"></script>
+    <script src="utils/localStorageUtils.js"></script>
+
+    <!--Header-->
+    <script src="components/Header/Header.js"> </script>
+    <link rel="stylesheet" href="components/Header/Header.css" />
+
+    <!--Products-->
+    <script src="components/Products/Products.js"> </script>
+    <link rel="stylesheet" href="components/Products/Products.css" />
+
+    <!--Shopping-->
+    <script src="components/Shopping/Shopping.js"> </script>
+    <link rel="stylesheet" href="components/Shopping/Shopping.css" />
+
+
+  </body>
+</html>
