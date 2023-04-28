@@ -20,7 +20,7 @@ const CATALOG = [
     {
         id: 'elemen4',
         name: 'FENDER SQUIER Affinity 2021 Stratocaster HH LRL Olympic White',
-        img: '<https://i.ibb.co/wMn5mzY/fender.jpg',
+        img: 'https://i.ibb.co/wMn5mzY/fender.jpg',
         price: 44760,
     },
 {
