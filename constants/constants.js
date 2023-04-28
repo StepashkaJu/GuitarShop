@@ -13,7 +13,7 @@ const CATALOG = [
     },
 {
         id: 'elemen3',
-        name: 'Fabio LP02 BK',
+        name: 'FABIO LP02 BK',
         img: 'https://i.ibb.co/4p6vhzk/fabio.jpg',
         price: 12700,
     },
@@ -49,13 +49,13 @@ const CATALOG = [
     },
 {
         id: 'elemen9',
-        name: 'Cort CR200-FBL Classic Rock',
+        name: 'CORT CR200-FBL Classic Rock',
         img: 'https://i.ibb.co/KFkFg4y/Cort-CR200-FBL-Classic-Rock.jpg',
         price: 22700,
     },
     {
         id: 'elemen10',
-        name: 'Solar Guitars A2.6TBR SK',
+        name: 'SOLAR Guitars A2.6TBR SK',
         img: 'https://i.ibb.co/cQHzfWV/Solar-Guitars-A2-6-TBR-SK.jpg',
         price: 99900,
     },

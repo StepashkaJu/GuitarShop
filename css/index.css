@@ -1,5 +1,16 @@
-:root { /* Часто :root используется для того, чтобы задавать кастомные свойства - повторяющееся значение, которое можно использовать в разных местах кода. */
-    --color:  rgb(163, 161, 161); /*храним значение цвета в переменной, чтобы повторно использовать ее, а не код цвета*/
+:root {
+    /* Часто :root используется для того, чтобы задавать кастомные свойства - повторяющееся значение, которое можно использовать в разных местах кода. */
+    --color-grey: #f8f9fa;
+    /*храним значение цвета в переменной, чтобы повторно использовать ее, а не код цвета*/
+    --spacing-small: 10px;
+    /*отсутпы сверху и снизу*/
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+    --color-white: #ffffff;
+    --box-shadow: 1px 1px 1px rgb(169, 169, 169);
+    --linear-gradient: linear-gradient(to right, yellow, rgb(119, 255, 0), green);
+    --border-radius: 3px;
+    --color-unaccent: #86888a;
 }
 
 * {
@@ -12,5 +23,6 @@ body {
     padding: 0;
     font-family: sans-serif;
     line-height: 1.7;
-    background-color: var (--color);
+    background-color: var(--color-grey);
+
 }
