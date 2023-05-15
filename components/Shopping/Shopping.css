@@ -1,0 +1,51 @@
+.shopping-container {
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+    background-color: var(--color-white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: var(--spacing-large);
+    box-shadow: var(--box-shadow);
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-dark);
+    border: var(--border-radius);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-white);
+
+}
+
+.shopping-element__name {
+    font-weight: bold;
+    padding: var(--spacing-medium);
+}
+
+.shopping-element__price {
+    padding: var(--spacing-medium);
+    color: var(--color-unaccent);
+}
+
+.shopping-closeCart {
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(img/icon-close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}

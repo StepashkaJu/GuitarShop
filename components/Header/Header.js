@@ -1,12 +1,16 @@
 class Header {
 
+    headerOpenShoppingPage() {
+        shoppingPage.render();
+    }
+
     render(count) {
-        const header = `
+        const html = `
         <div class="header-container">
-            <div class="header-cartCounter">🔥${count}</div>
+            <div class="header-cartCounter" onclick="headerPage.headerOpenShoppingPage()";>🔥${count}</div>
         </div>
     `;
-        ROOT_HEADER.innerHTML = header; //рендерим данные products
+        ROOT_HEADER.innerHTML = html; //рендерим данные products
 
     }
 
