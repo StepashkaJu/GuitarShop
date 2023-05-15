@@ -17,6 +17,9 @@ class Products {
             element.classList.remove(this.classNameActive);
             element.innerHTML = this.buttonLabelAdd;
         }
+
+        headerPage.render(products.length);
+
     }
 
     //рендерит данные на страничке, т.е переберет файлик CATALOG из папки constants и отобразит его на страничке Html
