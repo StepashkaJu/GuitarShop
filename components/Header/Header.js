@@ -17,5 +17,3 @@ class Header {
 }
 
 const headerPage = new Header();
-const productsCart = localStorageUtils.getProducts();
-headerPage.render(productsCart.length);

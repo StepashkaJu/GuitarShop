@@ -64,4 +64,3 @@ class Products {
 
 
 const productsPage = new Products(); //экземпляр класса Products
-productsPage.render();
