@@ -11,6 +11,9 @@
     --color-unaccent: #86888a;
     --color-medium: #e8e8e8; 
     --color-dark: #434141;
+    --color-error-light: rgb(208, 100, 100);
+    --color-error-dark: rgb(200, 83, 83);
+
     /*храним значение цветов в переменных, чтобы повторно использовать ее, а не код цвета*/
 
     --box-shadow: 1px 1px 1px rgb(169, 169, 169);

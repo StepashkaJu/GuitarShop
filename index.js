@@ -32,4 +32,7 @@ fetch('server/catalog.json') //отправляем запрос на серве
         // },1000);
 
     })
-    .catch(error => console.log(error)) //обработка ошибки
+    .catch(error => {
+        preloaderPage.preloaderClear();
+        errorPage.render()
+    }) //обработка ошибки
