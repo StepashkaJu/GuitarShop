@@ -5,6 +5,7 @@ function render() {
     productsPage.render();
 
 }
+preloaderPage.render();
 
 let CATALOG = [];
 
@@ -19,9 +20,16 @@ fetch('server/catalog.json') //отправляем запрос на серве
         }
         return response.json()
     })
-//если с запросом все ок
+    //если с запросом все ок
     .then(body => {
         CATALOG = body; //наш каталог присваивается body и рендерится
+        preloaderPage.preloaderClear();
         render();
+        //установка таймера для проверки preloader
+        // setTimeout(function () {
+        //     preloaderPage.preloaderClear();
+        //     render();
+        // },1000);
+
     })
     .catch(error => console.log(error)) //обработка ошибки
